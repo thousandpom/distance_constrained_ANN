@@ -1,4 +1,4 @@
-# distance_constrained_ANN
+# Distance_constrained_ANN
 
 Source code for my master thesis project: Implementing a Brain-inspired Distance 
 Constraint into Artificial Neural Networks
