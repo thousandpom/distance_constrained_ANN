@@ -1,0 +1,20 @@
+{   
+    "trial": 1, 
+    "rnn_type": "vanilla",
+    "n_spatial_dims": 3,
+    "norm": 2,
+    "hidden_size": 64,
+    "min_loss": 1e-4,
+    "n_trials_plot": 1,
+    "batch_size": 512,
+    "n_time": 64,
+    "n_bits": 3,
+    "p_flip": 0.25,
+    "initial_rate": 1.0, 
+    "min_rate": 1e-5,
+    "learning_rate": 0.003,
+    "n_epochs": 15000,
+    "scl": 100,
+    "perr": 35
+
+}
