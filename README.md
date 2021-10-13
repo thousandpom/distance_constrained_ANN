@@ -1,12 +1,12 @@
 # distance_constrained_ANN
 
-Source code for Xinyue Yao's NSC master thesis project.
+Source code for my master thesis project: Implementing a Brain-inspired Distance 
+Constraint into Artificial Neural Networks
 
 This README file provides an overview of how to run the model with a distance
 constraint on a fully-connected network or a sparse one. Additionally, the
 script also produces an $L^p$ regularized model as a contrast to the
-distance-modulated impacts. The script to generate figures
-in`NSCMasterThesis_XinyueYao.pdf` can be found here too.
+distance-modulated impacts. 
 
 ## A distance-constrained model
 In each sub-project folder, you can find a `requirements.txt` for all
@@ -38,10 +38,3 @@ training is initialized.
 To initialize the training, the user can type the following in the terminal:
 ```python3 train*.py --seed $seed```
 Please refer to the corresponding script for more settings. 
-
-### Generating figures used in the thesis 
-In each sub-project's directory, `plot.ipynb` contains scripts to generate
-figures that are used in `NSCMasterThesis_XinyueYao.pdf`. 
-
-`~/rnn/analyze_dynamics.ipynb` provides script to plot the dynamics of the fixed
-points in the trained RNN model.
